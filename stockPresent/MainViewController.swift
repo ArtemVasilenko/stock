@@ -50,4 +50,25 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         }
         return UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
+        switch indexPath.row {
+        case 0:
+            print("0")
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let controller: WarehouseKeceiptViewController = storyboard.instantiateViewController(withIdentifier: "Warehouse") as! WarehouseKeceiptViewController
+            
+            self.present(controller, animated: true, completion: nil)
+            
+        case 1:
+            print("1")
+        case 2:
+            print("2")
+        default:
+            break
+        }
+        
+    }
 }

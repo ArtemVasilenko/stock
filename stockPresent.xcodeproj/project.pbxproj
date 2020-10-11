@@ -16,6 +16,7 @@
 		55387C0525330CBD00DD96FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55387C0425330CBD00DD96FF /* MainViewController.swift */; };
 		55387C0825330EB400DD96FF /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55387C0725330EB400DD96FF /* MainCollectionViewCell.swift */; };
 		55387C0C253310AA00DD96FF /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55387C0B253310AA00DD96FF /* CollectionViewModel.swift */; };
+		55387C0F253322A400DD96FF /* WarehouseКeceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55387C0E253322A400DD96FF /* WarehouseКeceiptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		55387C0425330CBD00DD96FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		55387C0725330EB400DD96FF /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		55387C0B253310AA00DD96FF /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		55387C0E253322A400DD96FF /* WarehouseКeceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WarehouseКeceiptViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				55387BF62532D23300DD96FF /* LaunchScreen.storyboard */,
 				55387BF92532D23300DD96FF /* Info.plist */,
 				55387C0425330CBD00DD96FF /* MainViewController.swift */,
+				55387C0E253322A400DD96FF /* WarehouseКeceiptViewController.swift */,
 				55387C0725330EB400DD96FF /* MainCollectionViewCell.swift */,
 				55387C0B253310AA00DD96FF /* CollectionViewModel.swift */,
 			);
@@ -150,6 +153,7 @@
 				55387BF02532D22F00DD96FF /* ViewController.swift in Sources */,
 				55387BEC2532D22F00DD96FF /* AppDelegate.swift in Sources */,
 				55387C0825330EB400DD96FF /* MainCollectionViewCell.swift in Sources */,
+				55387C0F253322A400DD96FF /* WarehouseКeceiptViewController.swift in Sources */,
 				55387BEE2532D22F00DD96FF /* SceneDelegate.swift in Sources */,
 				55387C0525330CBD00DD96FF /* MainViewController.swift in Sources */,
 			);
